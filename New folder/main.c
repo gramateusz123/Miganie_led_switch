@@ -21,10 +21,9 @@ int main (void){
 			}
 
 		}
-		else if(licznik == 6)
-		{
+		else if(licznik == 6){
+			PORTC = 0b00100000;
 			licznik = 0;
-			PORTC = (PORTC >> 1 );
 		}
 
 	}
